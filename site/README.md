@@ -1,15 +1,17 @@
 # Markdown to HTML
 
-This project provides a simple web application that allows users to input Markdown text and see the rendered HTML output. Users can switch between the original Markdown and the rendered HTML using tabs.
+This web application allows users to input Markdown text and see the rendered HTML output in real-time. Users can switch between the Markdown source and the rendered HTML using tabs.
 
 ## Features
-- Live preview of Markdown as HTML
-- Switch between Markdown source and HTML output
+- Live Markdown to HTML conversion
+- Tabbed interface for easy switching between source and output
 
 ## Usage
-1. Open `index.html` in a web browser.
-2. Enter Markdown text in the textarea.
-3. Use the tabs to switch between the Markdown source and the rendered HTML.
+1. Enter your Markdown text in the left textarea.
+2. Switch to the 'Rendered HTML' tab to see the output.
 
-## Dependencies
-- [Marked.js](https://github.com/markedjs/marked) for Markdown parsing.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Marked.js for Markdown parsing

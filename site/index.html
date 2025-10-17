@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="markdown-tabs">
-        <button id="show-markdown">Show Markdown</button>
-        <button id="show-html">Show HTML</button>
+    <div class="tabs">
+        <button id="source-tab" class="active">Markdown Source</button>
+        <button id="output-tab">Rendered HTML</button>
     </div>
-    <div id="markdown-source" class="tab-content">
+    <div id="markdown-source" class="tab-content active">
         <textarea id="markdown-input" placeholder="Enter your markdown here..."></textarea>
     </div>
-    <div id="markdown-output" class="tab-content" style="display:none;">
+    <div id="markdown-output" class="tab-content">
         <div id="html-output"></div>
     </div>
     <script src="script.js"></script>
